@@ -17,6 +17,7 @@ npm run dev
 The site can be deployed on platforms like Vercel or Netlify. A sample GitHub Actions
 workflow is provided under `.github/workflows/deploy.yml`.
 
+
 ## Docker
 
 A `Dockerfile` is included for running the site in a container:
