@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply bg-black text-white scroll-smooth;
+}
+
+body {
+  @apply min-h-screen bg-gradient-to-br from-neutral-900 via-black to-neutral-950;
+}
