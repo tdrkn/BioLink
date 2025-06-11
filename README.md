@@ -17,6 +17,18 @@ npm run dev
 The site can be deployed on platforms like Vercel or Netlify. A sample GitHub Actions
 workflow is provided under `.github/workflows/deploy.yml`.
 
+
+## Docker
+
+A `Dockerfile` is included for running the site in a container:
+
+```bash
+docker build -t biolink .
+docker run -p 3000:3000 biolink
+```
+
+Then open <http://localhost:3000> in your browser.
+
 ## Customizing Content
 
 Edit the components in `src/components/` or replace project data in `src/components/Projects.jsx`.
